@@ -3,7 +3,6 @@
 @import '~sweetalert2/src/sweetalert2';
 
 html {
-    background-color: #022e54;
 }
 
 body {
@@ -40,7 +39,7 @@ h2 {
 #formContent {
     -webkit-border-radius: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
-    background: #fff;
+    background: #71717199;
     padding: 30px;
     width: 90%;
     max-width: 450px;
@@ -343,7 +342,7 @@ button:active {
 }
 
 .text:nth-child(5n + 1) {
-    stroke: #f2385a;
+    stroke: #bd05f1;
     -webkit-animation-delay: -1.2s;
     animation-delay: -1.2s;
 }
@@ -361,13 +360,13 @@ button:active {
 }
 
 .text:nth-child(5n + 4) {
-    stroke: #56d9cd;
+    stroke: #f6f6f6;
     -webkit-animation-delay: -4.8s;
     animation-delay: -4.8s;
 }
 
 .text:nth-child(5n + 5) {
-    stroke: #3aa1bf;
+    stroke: #f6f6f6;
     -webkit-animation-delay: -6s;
     animation-delay: -6s;
 }
