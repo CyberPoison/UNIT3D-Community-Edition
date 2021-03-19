@@ -19,7 +19,7 @@
                 <span class="menu-text">@lang('torrent.torrents')</span>
                 <span class="selected"></span>
             </a>
-            <ul class="hoe-sub-menu" style="height: 350px; display: none; overflow-y: scroll;">
+            <ul class="hoe-sub-menu">
                 <li>
                     @if (auth()->user()->torrent_layout == 1)
                         <a href="{{ route('groupings') }}">
@@ -66,7 +66,7 @@
                 <span class="menu-text">@lang('common.publish')</span>
                 <span class="selected"></span>
             </a>
-            <ul class="hoe-sub-menu">
+            <ul class="hoe-sub-menu" style="height: 350px; display: none; overflow-y: scroll;">
                 @php $categories = App\Models\Category::all(); @endphp
                 @foreach($categories as $category)
                     <li>
